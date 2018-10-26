@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import Button from './Button';
 import logo from './logo.svg';
 import './App.css';
+import EmptySection from './EmptySection';
+import { ThemeProviderDark, ThemeProviderLight } from './Context/theme';
 
 class App extends Component {
   render() {
@@ -20,6 +23,28 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <ThemeProviderDark>
+          <EmptySection>
+            <EmptySection>
+              <EmptySection>
+                <EmptySection>
+                  <Button />
+                </EmptySection>
+              </EmptySection>
+            </EmptySection>
+          </EmptySection>
+        </ThemeProviderDark>
+        <ThemeProviderLight>
+          <EmptySection>
+            <EmptySection>
+              <EmptySection>
+                <EmptySection>
+                  <Button />
+                </EmptySection>
+              </EmptySection>
+            </EmptySection>
+          </EmptySection>
+        </ThemeProviderLight>
       </div>
     );
   }
