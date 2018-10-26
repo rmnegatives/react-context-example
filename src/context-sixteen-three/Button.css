@@ -1,0 +1,19 @@
+.Button {
+  text-align: center;
+}
+
+.Button-dark {
+  color: white;
+  background-color: black;
+  width: 10vw;
+  height: 10vh;
+  border-radius: 5%;
+}
+
+.Button-light {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 5%;
+  color: black;
+  background-color: white;
+}

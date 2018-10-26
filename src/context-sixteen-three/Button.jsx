@@ -4,7 +4,7 @@ import './Button.css';
 
 class Button extends Component {
   setTheme = () => {
-    if (this.context === 'dark') {
+    if (this.context.theme === 'dark') {
       return 'Button-dark';
     } else {
       return 'Button-light';

@@ -1,0 +1,9 @@
+.ReactContext-main {
+  height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: initial;
+  background-image: url('../assets/coding-js.jpg');
+}
